@@ -5,11 +5,11 @@ This repository contains Python scripts for interacting with Docker Hub or other
 
 It relies on the Docker registry [HTTPS API v2](https://docs.docker.com/registry/spec/api/).
 
-## Extended description
+## 基于原仓库的拓展功能
 
-- Support private docker repository
-- Support multi-platform architecture image(amd64/arm64)
-- Replace export file fo tar to tar.gz 
+- 支持私有仓库的认证（限于基于Docker Registry V2协议） 
+- 支持多平台的镜像 (amd64/arm64)
+- 修改导出镜像的格式为tar.gz
 
 ## Pull a Docker image in HTTPS
 
